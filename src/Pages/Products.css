@@ -1,0 +1,36 @@
+.Prod{
+    background-color: mistyrose;
+    display:grid;
+    gap: 25px;
+    padding: 40px;
+    
+}
+.Prod-cards{
+ display: flex;
+ gap: 55px;
+ 
+}
+.Prod-cards h2{
+    font-size: 20px;
+    margin: 10px;
+    color: brown;
+}
+.Prod h1{
+    text-align: left;
+    color: brown;
+    font-family: cursive;
+    font-size: 40px;
+}
+.card2{
+    width: 40%;
+    height: 25vh;
+    background-color:white;
+    border-radius: 20px;
+    transform: translateY(0.3);
+    
+}
+
+    
+
+
+

@@ -1,0 +1,20 @@
+.skincare{
+    background-color: lavenderblush;
+    gap: 11px;
+}
+.skincare h3{
+    text-align:left;
+    font-size: 30px;
+    color: brown;
+    margin-bottom: 40px;
+}
+.skin-glow h4{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   flex-wrap: wrap;
+   margin-top:30px; 
+}
+.skin-glow p{
+    text-align: center;
+}

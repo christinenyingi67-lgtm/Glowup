@@ -1,0 +1,43 @@
+.contacts{
+background-color: lavenderblush;
+padding: 50px;
+text-align: center;
+min-height: 70vh;
+}
+.contacts h1{
+    color: darkmagenta;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contacts p{
+    color: dimgray;
+    margin-bottom: 30px;
+}
+.contacts form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contacts input{
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid plum;
+}
+.contacts form textarea{
+    min-height: 130px;
+    resize: vertical;
+}
+.contacts form button{
+    padding: 12px;
+    background-color: dimgray;
+    color:white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contacts form button:hover{
+    background-color: purple;
+}

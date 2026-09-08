@@ -1,0 +1,26 @@
+.Hair{
+    background-color:lavenderblush;
+    width: 100%;
+    height: 50vh;
+}
+.Container{  
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+ flex-wrap: wrap;
+ margin-top:30px;
+}
+.card3{ 
+    background-color:purple;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+
+}
+.Hair h2{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    margin-bottom: 40px;
+
+}

@@ -1,0 +1,34 @@
+.about{
+    background-color:mistyrose;
+    padding: 80px 10px;
+    min-height: 70vh;
+}
+.about h1{
+    align-items: center;
+    font-size: 4opx;
+    color: brown;
+}  
+.about h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: brown;
+}
+.glowup{
+   text-align: center;
+    gap: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.glow{
+ background-color: purple;
+ width: 30%;  
+ height: 30vh; 
+ border-radius: 20px;
+}
+.about h3{
+    font-size: 30px;
+    margin-top: 70px;
+    color: brown;
+}
