@@ -1,35 +1,47 @@
 import './Skincare.css'
 function Skincare(){
     return(
-        <>
-     <section className="skincare">
-        <h3>Your skin, your Glow</h3>
-        <div className="skin-glow">
-            <h4>Cleansers</h4>
-            <p>Remove impurities, refresh your skin and start your skincare routine
-                with a clean and healthy glow
-            </p>
-            <h4>Serum</h4>
-            <p>Boost your skin growth</p>
-            <h4>Moisturers</h4>
-            <p>Keep your skin soft, smooth,and deeply hydrated for a healthy,
-                radiant-looking glow
-            </p>
-            <h4>Sunscreen</h4>
-            <p>Shield you skin for daily sun exposure while keeping
-                 it healthy and protected</p>
-                 <h4>Face Mask</h4>
-                 <p>Give youer skin extra care with nourishing masks that refresh,
-                    haydrate and revive your natural glow</p>
-            <h4>Toners</h4>
-            <p>refresh, hydrate and prepare your skin for the rest of your skincare routine
-                leaving it feeling clean and balanced
-            </p>
+        
 
-        </div>
+        <section className="Prod">
+            <h1>Our Beauty Products </h1>
+            <p>Discover products to help you take care for your skin hair
+        and overall beauty 
+            </p>
+        
+            <section className="Prod-cards">
+                <div className='card2'>
+                    <h2>Glow face serum</h2>
+                    <p>Helps keep your skin hydrated and glowing</p>
+                    <p>$15</p>
+                    <button>Add to cart</button>
+                    </div>
+            
+                    <div className='card2'>
+                    
+                      <h2>Radiant lipgloss</h2>
+                        <p>Gives your lips smooth and siny finish</p>
+                        <p>$10</p>
+                        <button>Add to cart</button>
+                        </div>
+                        
+                        <div className='card2'>
+                            <h2>Soft body lotion</h2>
+                            <p>Keeps your skin soft and moisturized.</p>
+                            <p>$12</p>
+                            <button>Add to cart</button>
+                            </div>
+                             <div className='card2'>
+                                <h2>Daily sunscreen</h2>
+                                <p>Helps protect your skin from UV exposure.</p>
+                                <p>$18</p>
+                                <button>Add to cart</button>
+                                </div>
+                        </section>
+
+             </section>
     
-     </section>
-        </>
+
     )
 }
 export default Skincare

@@ -1,5 +1,4 @@
 import './Products.css'
-
 function Products(){
     return(
         <section className="Prod">
@@ -15,6 +14,7 @@ function Products(){
                     <p>$15</p>
                     <button>Add to cart</button>
                     </div>
+            
                     <div className='card2'>
                     
                       <h2>Radiant lipgloss</h2>

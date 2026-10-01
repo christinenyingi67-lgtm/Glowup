@@ -2,19 +2,20 @@
     background-color: mistyrose;
     padding: 80px;
     min-height: 70vh;
+    margin-top: 15vh;
 }
 .routine h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: brown;
     margin-bottom: 40px;
 }
 .cards{
- display: flex;
- justify-content: center;
- gap: 30px;
- flex-wrap: wrap;
- margin-top: 30px;
+   display:grid;grid-template-columns:repeat(2,1fr);
+   gap:100px;
+   flex-wrap: wrap;
+   margin-top: 50px;
+
   
 }
 h3{
@@ -22,8 +23,24 @@ h3{
 }
 .card1{
     background-color:purple;
-    width: 30%;
+    color:lavenderblush;
+    width: 500px;
     height: 30vh;
     border-radius: 20px;
+    box-shadow:0 5px 25px gray;
+    cursor: pointer;
+    transition: 0.7s;
 }
+.card1:hover{
+    transform: scale(1.1);
+
+}
+.steps p{
+    text-align:center;
+    font-size: 24px;
+    font-weight: lighter;
+    color:brown;
+    margin-top: 30px;
+}
+
 

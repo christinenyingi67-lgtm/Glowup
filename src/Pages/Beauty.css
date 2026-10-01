@@ -1,6 +1,8 @@
 .beauty{
     background-color:lavenderblush;
     padding: 20px;
+    min-height: 52vh;
+    margin-top: 15vh;
 }
 .beauty h2{
     align-items: center;
@@ -13,4 +15,7 @@
     font-size: 4opx;
     color: brown;
  
+}
+.selfcare{
+    margin-top: 25vh;
 }

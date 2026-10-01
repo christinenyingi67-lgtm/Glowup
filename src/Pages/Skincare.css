@@ -1,20 +1,36 @@
-.skincare{
-    background-color: lavenderblush;
-    gap: 11px;
+.Prod{
+    background-color: mistyrose;
+    display:grid;
+    gap: 25px;
+    padding: 40px;
+    margin-top: 15vh;
 }
-.skincare h3{
-    text-align:left;
-    font-size: 30px;
+.Prod-cards{
+ display: flex;
+ gap: 55px;
+ 
+}
+.Prod-cards h2{
+    font-size: 20px;
+    margin: 10px;
     color: brown;
-    margin-bottom: 40px;
 }
-.skin-glow h4{
-   display: flex;
-   justify-content: center;
-   gap: 15px;
-   flex-wrap: wrap;
-   margin-top:30px; 
+.Prod h1{
+    text-align: left;
+    color: brown;
+    font-family: cursive;
+    font-size: 40px;
 }
-.skin-glow p{
-    text-align: center;
+.card2{
+    width: 40%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 20px;
+    transform: translateY(0.3);
+
 }
+
+    
+
+
+

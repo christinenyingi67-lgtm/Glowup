@@ -1,13 +1,25 @@
 import './About.css'
+import image from '../assets/about.jpg'
 function About(){
     return(
      <>
    <div className="about">
             <section>
+                <section className='gloww'>
                 <h1>About glowup</h1>
-                <p>Glowup is a beauty and self-care platform created to help<br />
+                <div style={{height:"40vh", width:"100%", display:"flex", alignItems:"center",justifyContent:"center", gap:"20px"}}>
+                    <div>
+                <p>
+                    Glowup <br />is a beauty and self-care platform created to help<br />
                     you discover products and simple routines that fit nto your everyday life
                 </p>
+                </div>
+                <div>
+                
+          <img style={{width:"480px", height:'390px', borderRadius:"30px"}} src={image} alt='image here' />
+                </div>
+                </div>
+                </section>
                 </section>
                 <section>
                     <h2>Our Mission</h2>
@@ -16,7 +28,7 @@ function About(){
                         and comfotable with their own skin
                     </p>
                     </section>
-                
+                                               
                 <section>
             
                     <h3>What we offer</h3>

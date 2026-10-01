@@ -15,6 +15,9 @@ function Header(){
             justifyContent:"center",
             gap:"235px",
             color:"brown",
+            position:'fixed',
+            marginTop:"-15vh",
+            zIndex:10
                 
            }}>
             <div>
@@ -27,11 +30,10 @@ function Header(){
             <Link style={{ textDecoration:"none",}} to="/">Home</Link>
             <Link style={{ textDecoration:"none",}} to="/About">About</Link>
             <Link style={{ textDecoration:"none",}} to="/Contacts">Contacts</Link>
-            <Link style={{ textDecoration:"none", }} to="/Products">Products</Link>
             <div style={{
                 position:"relative"
             }}>
-            <Link onClick={()=>setIsOpen(!isOpen)} style={{textDecoration:"none"}} >▼</Link>
+            <Link onClick={()=>setIsOpen(!isOpen)} style={{textDecoration:"none"}} >Products▼</Link>
                 {isOpen &&(
                 <div style={{
                     position:"absolute",

@@ -2,6 +2,7 @@
     background-color:mistyrose;
     padding: 80px 10px;
     min-height: 70vh;
+    margin-top: 15vh;
 }
 .about h1{
     align-items: center;
@@ -23,6 +24,7 @@
 }
 .glow{
  background-color: purple;
+ color: pink;
  width: 30%;  
  height: 30vh; 
  border-radius: 20px;
@@ -32,3 +34,9 @@
     margin-top: 70px;
     color: brown;
 }
+.gloww p{
+    font-size:25px;
+}
+
+    
+

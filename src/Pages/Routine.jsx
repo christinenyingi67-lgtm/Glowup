@@ -1,14 +1,21 @@
 import './Routine.css'
+import image from '../assets/gloww.webp'
 function Routine(){
     return(
         <>
             
            <section className='routine'>
+            <div className='steps'>
                <h1>GlowUp Routine</h1>
                 
             <p>Follow these simple steps and keep your skin fresh,healthy
                 and glowing.
             </p>
+            <div>
+        
+                
+            </div>
+            </div>
             <div className='cards'>
             <div className='card1'>
                 <h3>1.CLeanse</h3>

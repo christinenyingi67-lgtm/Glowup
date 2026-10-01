@@ -27,7 +27,8 @@ p{
    align-items: center;
    justify-content: center;    
    text-align: center;
-   background-color: mistyrose;
+   background-color: rgb(218, 38, 18);
+   margin-top: 15vh;
 }
 .home h1{
     color: purple;

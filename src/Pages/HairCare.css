@@ -1,26 +1,51 @@
 .Hair{
     background-color:lavenderblush;
     width: 100%;
-    height: 50vh;
+    height:90vh;
+    margin-top: 15vh;
 }
-.Container{  
- display: flex;
+.Container{    
+ display:grid;grid-template-columns: repeat(3,1fr);
  justify-content: center;
  gap: 30px;
  flex-wrap: wrap;
  margin-top:30px;
 }
-.card3{ 
-    background-color:purple;
-    width: 30%;
-    height: 15vh;
+.card3{
+    width: 90%;
+    height: 30vh;
     border-radius: 20px;
-
+    margin-bottom: 50px;
+    color:lavenderblush ;
+    background-position: center;
+    background-size:cover;
 }
+
 .Hair h2{
     text-align: center;
     font-size: 30px;
     color: brown;
     margin-bottom: 40px;
+
+}
+.Hair h1{
+    text-align: center;
+    color: brown;
+}
+.Hair p{
+text-align: center;
+font-size: 25px;
+font-style: italic;
+}
+
+
+.overlay{
+    
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px;  
+
+    background-color: rgba(58, 56, 56, 0.5);
+
 
 }

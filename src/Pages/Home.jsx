@@ -1,5 +1,5 @@
 import './Home.css'
-import image from '../assets/imgb.jpg'
+import image from '../assets/women.webp'
 
 
 function Home(){
@@ -10,15 +10,15 @@ function Home(){
             <div>
             <h1>Welcome to glow up</h1>
             <h2>Discover your glow</h2>
-            <p>Your beauty journey starts here,Discover beauty essentials,Beauty products and<br />
-                simple routines designed to take care of yourself,biuld confidence and bring out<br /> 
-                your natural glow.whether your starting an new routine or looking for something <br />
+            <p>Your beauty journey starts here,<br />Discover beauty essentials,Beauty products and
+                simple routines designed to take care of yourself,biuld confidence and bring out
+                your natural glow.whether your starting an new routine or looking for something 
                 new to try.we're here to make yor glow-up journey simple,enjoyable and inspiring
             </p>
             <button style={{backgroundColor:"brown", color:"white", marginTop:"20px", padding:"10px 40px", borderRadius:"20px"}}>Explore now</button>
             </div>
             <div>
-                <img style={{width:"340px", height:'390px', borderRadius:"30px"}} src={image} alt='image here' />
+                <img style={{width:"480px", height:'390px', borderRadius:"30px"}} src={image} alt='image here' />
             </div>
               </section>
               <section className="Special-offer">
