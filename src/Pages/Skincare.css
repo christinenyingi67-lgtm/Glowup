@@ -1,36 +1,82 @@
-.Prod{
-    background-color: mistyrose;
-    display:grid;
+.Prod {
+    background-color: lavenderblush;
+    padding: 50px 25px;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.Prod h1 {
+    color: purple;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.Prod-intro {
+    color: #6b426b;
+    font-size: 17px;
+    margin-bottom: 35px;
+    line-height: 1.7;
+}
+
+.Prod-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 25px;
-    padding: 40px;
-    margin-top: 15vh;
 }
-.Prod-cards{
- display: flex;
- gap: 55px;
- 
-}
-.Prod-cards h2{
-    font-size: 20px;
-    margin: 10px;
-    color: brown;
-}
-.Prod h1{
-    text-align: left;
-    color: brown;
-    font-family: cursive;
-    font-size: 40px;
-}
-.card2{
-    width: 40%;
-    height: 25vh;
+
+.card2 {
     background-color: white;
-    border-radius: 20px;
-    transform: translateY(0.3);
-
+    width: 220px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px pink;
 }
 
-    
+.card2 h2 {
+    color: purple;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
 
+.card2 p {
+    color: #684868;
+    line-height: 1.6;
+}
 
+.card2 .price {
+    color: deeppink;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
 
+.card2 button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.card2 button:hover {
+    background-color: deeppink;
+}
+
+@media (max-width: 600px) {
+    .Prod h1 {
+        font-size: 28px;
+    }
+
+    .Prod-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card2 {
+        width: 85%;
+        max-width: 300px;
+    }
+}

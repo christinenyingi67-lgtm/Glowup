@@ -1,58 +1,70 @@
 import './Routine.css'
-import image from '../assets/gloww.webp'
-function Routine(){
-    return(
-        <>
-            
-           <section className='routine'>
-            <div className='steps'>
-               <h1>GlowUp Routine</h1>
-                
-            <p>Follow these simple steps and keep your skin fresh,healthy
-                and glowing.
+
+function Routine() {
+return (
+<section className="routine">
+
+        <div className="steps">
+            <h1>GlowUp Routine</h1>
+
+            <p>
+                Simple steps, beautiful skin.
+                Follow our daily skincare routine
+                to keep your skin fresh, healthy and glowing.
             </p>
-            <div>
-        
-                
-            </div>
-            </div>
-            <div className='cards'>
-            <div className='card1'>
-                <h3>1.CLeanse</h3>
-                <p>Start by gently cleansing your face it helps in the removal of
-                    dirt, oil,sweate ,makeup and impurities from the skin.
-                    It helps keep the pores clean , prevents breakout,
-                    Maintans the skin natural balance, and leaves the skin feeling 
-                    fresh, clean and healthy.
+        </div>
+
+        <div className="cards">
+
+            <div className="card1">
+                <span>01</span>
+                <h3>Cleanse</h3>
+                <p>
+                    Start by gently cleansing your face to remove
+                    dirt, oil, makeup and impurities. Cleansing
+                    helps keep your pores clean and leaves your
+                    skin feeling fresh and comfortable.
                 </p>
             </div>
-            <div className='card1'>
-                <h3>2.Serum</h3>
-                <p>Apply serum ,it gives your skin a concentrated ingridients that help to
-                    hydrate, brighten, nourish and protect the skin.
-                    It can also help to reduce darkspots acne ,fine lines and uneven skin tone
-                    leaving the skin looking smoother healthier and more radient
+
+            <div className="card1">
+                <span>02</span>
+                <h3>Serum</h3>
+                <p>
+                    Apply a serum suited to your skin's needs.
+                    Depending on its ingredients, it can help
+                    hydrate, brighten and improve the appearance
+                    of uneven skin tone.
                 </p>
             </div>
-            <div className='card1'>
-                <h3>3.Moisturize</h3>
-                <p>Use a moisturizer to keep your skin hydrated soft and smooth 
-                     by preventing moisture loss it can also strengthen the skin 
-                     barrier,rand also reduces dryness and irritation and leave the skin 
-                     looking healthy fresh and glowing.</p>
+
+            <div className="card1">
+                <span>03</span>
+                <h3>Moisturize</h3>
+                <p>
+                    Apply moisturizer to keep your skin soft
+                    and hydrated. It helps reduce moisture loss,
+                    supports the skin barrier and leaves your
+                    skin feeling smooth and comfortable.
+                </p>
             </div>
-                <div className='card1'>
-                    <h3>4.Sunscreen</h3>
-                    <p>Finish with the sunscreen to protect the skin from harmful UV rays 
-                        from the sun helping to prevent sunburn,pre-mature aging,darkspots 
-                        and skin damage.It keeps your skin healthier
-                         and should be applied regularly, esspecially when spending time outdoors
-                    </p>
+
+            <div className="card1">
+                <span>04</span>
+                <h3>Sunscreen</h3>
+                <p>
+                    Finish your morning routine with broad-spectrum
+                    SPF 30 or higher sunscreen. It helps protect
+                    your skin from harmful UV rays and reduces
+                    the risk of sunburn and premature aging.
+                </p>
             </div>
-                    </div>
-        
-                </section>
-        </>
-    )
+
+        </div>
+
+    </section>
+)
+
 }
+
 export default Routine

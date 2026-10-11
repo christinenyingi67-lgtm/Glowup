@@ -1,51 +1,194 @@
-.Hair{
-    background-color:lavenderblush;
-    width: 100%;
-    height:90vh;
-    margin-top: 15vh;
-}
-.Container{    
- display:grid;grid-template-columns: repeat(3,1fr);
- justify-content: center;
- gap: 30px;
- flex-wrap: wrap;
- margin-top:30px;
-}
-.card3{
-    width: 90%;
-    height: 30vh;
-    border-radius: 20px;
-    margin-bottom: 50px;
-    color:lavenderblush ;
-    background-position: center;
-    background-size:cover;
+/* MAIN PAGE */
+.Hair {
+background-color: #fffaff;
+color: #713782;
+font-family: Arial, sans-serif;
+min-height: 100vh;
 }
 
-.Hair h2{
-    text-align: center;
-    font-size: 30px;
-    color: brown;
-    margin-bottom: 40px;
-
-}
-.Hair h1{
-    text-align: center;
-    color: brown;
-}
-.Hair p{
+/* HERO SECTION */
+.hair-hero {
 text-align: center;
-font-size: 25px;
+padding: 80px 20px;
+background-color: #fff5fb;
+}
+
+.hair-label {
+color: #d34e9b;
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+.hair-hero h1 {
+color: #79358a;
+font-size: 52px;
+margin: 20px 0 10px;
+}
+
+.hair-tagline {
+color: #d94e9d;
+font-size: 22px;
 font-style: italic;
 }
 
+.hair-intro {
+color: #765b7d;
+max-width: 540px;
+margin: 20px auto 28px;
+line-height: 1.8;
+}
 
-.overlay{
-    
-    width: 100%;
-    height: 30vh;
-    border-radius: 20px;  
+/* BUTTON */
+.hair-button {
+display: inline-block;
+color: #79358a;
+background-color: white;
+border: 2px solid #79358a;
+padding: 13px 28px;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+}
 
-    background-color: rgba(58, 56, 56, 0.5);
+.hair-button:hover {
+color: white;
+background-color: #79358a;
+}
 
+/* COLLECTION */
+.hair-collection {
+padding: 65px 7%;
+}
 
+.hair-heading {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.hair-heading span {
+color: #d94e9d;
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+.hair-heading h2 {
+color: #79358a;
+font-size: 35px;
+margin: 15px 0;
+}
+
+.hair-heading p {
+color: #806b84;
+line-height: 1.8;
+}
+
+/* SIX TEXT-ONLY CARDS */
+.Container {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: 25px;
+}
+
+.card3 {
+min-height: 190px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 25px;
+box-sizing: border-box;
+border-radius: 16px;
+background-color: #fff0f8;
+border: 1px solid #f0d6ee;
+box-shadow: 0 6px 18px rgba(121, 53, 138, 0.08);
+}
+
+/* CARD TEXT */
+.overlay {
+width: 100%;
+}
+
+.hair-number {
+display: block;
+color: #d94e9d;
+font-size: 13px;
+font-weight: bold;
+margin-bottom: 12px;
+}
+
+.overlay h3 {
+color: #79358a;
+font-size: 22px;
+margin: 0 0 12px;
+}
+
+.overlay p {
+color: #805f87;
+font-size: 14px;
+line-height: 1.7;
+margin: 0;
+}
+
+/* BOTTOM SECTION */
+.hair-ending {
+text-align: center;
+padding: 55px 20px;
+background-color: #f8eafa;
+}
+
+.hair-ending p {
+color: #d94e9d;
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+.hair-ending h2 {
+color: #79358a;
+font-size: 32px;
+margin: 18px 0;
+}
+
+.hair-ending span {
+color: #b04f91;
+}
+
+/* TABLETS */
+@media (max-width: 900px) {
+.Container {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hair-collection {
+padding: 50px 5%;
+}
+}
+
+/* PHONES */
+@media (max-width: 560px) {
+.hair-hero {
+padding: 60px 20px;
+}
+
+.hair-hero h1 {
+font-size: 38px;
+}
+
+.hair-heading h2 {
+font-size: 28px;
+}
+
+.Container {
+grid-template-columns: 1fr;
+}
+
+.card3 {
+min-height: 160px;
+}
+
+.hair-ending h2 {
+font-size: 26px;
+}
 }

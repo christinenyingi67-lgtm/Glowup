@@ -1,20 +1,43 @@
-import './Beauty.css'
-function Beauty(){
-    return(
-      <>
-    <section className="beauty">
-    <h2>Glow with confidence</h2>
-    <p>Discover beauty products that help you look,feel and be your best
-      everyday.
-    </p>
-      <div className="selfcare">
-        <h3>Enhance your natural beauty</h3>
-        <p>Unleash your Glow,Embrace your beauty and shine with confidence.<br />
-          Discover beauty essentials created to inspire self-love,
-          enhance your natural beauty and help you feel confident every moment </p>
-      </div>
-    </section>
-      </>
-    )
+import "./Beauty.css";
+
+function Beauty() {
+  return (
+    <div className="beauty-page">
+      <section className="beauty-hero">
+        <p className="beauty-label">GLOW UP BEAUTY</p>
+
+        <h1>Discover Your Beauty</h1>
+
+        <p>
+          Enhance your natural beauty with products
+          that help you glow with confidence.
+        </p>
+
+        <button>Explore Beauty</button>
+      </section>
+
+      <section className="beauty-products">
+        <h2>Our Beauty Collection</h2>
+
+        <div className="beauty-list">
+          <div className="beauty-item">
+            <h3>Skincare</h3>
+            <p>Nourish your skin and reveal your glow.</p>
+          </div>
+
+          <div className="beauty-item">
+            <h3>Serums</h3>
+            <p>Give your skin extra care and hydration.</p>
+          </div>
+
+          <div className="beauty-item">
+            <h3>Moisturizers</h3>
+            <p>Keep your skin soft and moisturized.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
-export default Beauty
+
+export default Beauty;

@@ -1,21 +1,59 @@
-.beauty{
-    background-color:lavenderblush;
-    padding: 20px;
-    min-height: 52vh;
-    margin-top: 15vh;
+.beauty-page {
+  font-family: Arial, sans-serif;
+  color: #4a204f;
+  background-color: #fff7fb;
+  min-height: 100vh;
 }
-.beauty h2{
-    align-items: center;
-    font-size: 4opx;
-    color: brown;
+
+.beauty-hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f8dff0;
 }
-.selfcare h3{
-    margin-top: 30px;
-    text-align: left;
-    font-size: 4opx;
-    color: brown;
- 
+
+.beauty-label {
+  color: #9b4b83;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
-.selfcare{
-    margin-top: 25vh;
+
+.beauty-hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.beauty-hero p {
+  line-height: 1.8;
+}
+
+.beauty-hero button {
+  background-color: #7b2d72;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.beauty-products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.beauty-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.beauty-item {
+  background-color: #eadcf5;
+  padding: 25px;
+  border-radius: 12px;
+  width: 220px;
+}
+
+.beauty-item h3 {
+  color: #7b2d72;
 }

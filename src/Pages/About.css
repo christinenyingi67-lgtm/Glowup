@@ -1,42 +1,288 @@
-.about{
-    background-color:mistyrose;
-    padding: 80px 10px;
-    min-height: 70vh;
-    margin-top: 15vh;
+
+.about {
+    background-color: lavenderblush;
+    color: darkslateblue;
+    font-family: 'Poppins', Arial, sans-serif;
+
+
 }
-.about h1{
-    align-items: center;
-    font-size: 4opx;
-    color: brown;
-}  
-.about h2{
-    margin-top: 50px;
-    margin-bottom: 20px;
-    color: brown;
-}
-.glowup{
-   text-align: center;
-    gap: 30px;
-    margin-top: 30px;
+
+.about-hero {
+    min-height: 75vh;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+    padding: 70px 9%;
+    background: linear-gradient(
+        135deg,
+        lavenderblush,
+        thistle
+    );
+}
+
+.about-intro {
+    flex: 1;
+    max-width: 540px;
+}
+
+.about-tag,
+.section-tag {
+    display: inline-block;
+    color: mediumvioletred;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.about-intro h1 {
+    font-size: clamp(36px, 4.5vw, 58px);
+    line-height: 1.2;
+    margin: 0 0 22px;
+    color: darkslateblue;
+}
+
+.about-intro h1 span {
+    display: block;
+    color: mediumvioletred;
+}
+
+.about-intro p,
+.mission p,
+.why-glow p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #66566f;
+}
+
+.about-intro p {
+    max-width: 460px;
+    margin-bottom: 30px;
+}
+
+.about-button {
+    display: inline-block;
+    padding: 14px 27px;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about-button:hover {
+    background-color: mediumvioletred;
+}
+
+/* HERO IMAGE */
+.about-image {
+    flex: 1;
+    max-width: 490px;
+    position: relative;
+}
+
+.about-image img {
+    display: block;
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 150px 150px 25px 25px;
+    box-shadow: 0 18px 40px #7b467b30;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+    right: 18px;
+    padding: 18px;
+    border-radius: 15px;
+    background-color: lavenderblush;
+    text-align: center;
+}
+
+.image-caption span {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: mediumvioletred;
+}
+
+.image-caption p {
+    margin: 7px 0 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: darkslateblue;
+}
+
+/* MISSION SECTION */
+.mission {
+    text-align: center;
+    padding: 85px 20px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.mission h2,
+.offer-heading h2,
+.why-glow h2 {
+    font-size: 36px;
+    color: darkslateblue;
+    margin: 0 0 20px;
+}
+
+.mission p,
+.why-glow p {
+    max-width: 720px;
+    margin: auto;
+}
+
+/* WHAT WE OFFER */
+.offer {
+    padding: 75px 9%;
+    background-color: white;
+}
+
+.offer-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.offer-heading p {
+    color: #66566f;
+    line-height: 1.8;
+}
+
+.glowup {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.glow {
+    padding: 30px 23px;
+    background-color: lavenderblush;
+    border: 1px solid thistle;
+    border-radius: 18px;
+    min-height: 215px;
+}
+
+.category-number {
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
-
-}
-.glow{
- background-color: purple;
- color: pink;
- width: 30%;  
- height: 30vh; 
- border-radius: 20px;
-}
-.about h3{
-    font-size: 30px;
-    margin-top: 70px;
-    color: brown;
-}
-.gloww p{
-    font-size:25px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: thistle;
+    color: darkslateblue;
+    font-size: 13px;
+    font-weight: 700;
 }
 
-    
+.glow h3 {
+    margin: 22px 0 12px;
+    font-size: 21px;
+    color: darkslateblue;
+}
 
+.glow p {
+    color: #66566f;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* WHY GLOW UP */
+.why-glow {
+    text-align: center;
+    padding: 85px 20px;
+    background: linear-gradient(
+        135deg,
+        thistle,
+        lavenderblush
+    );
+}
+
+.why-glow p {
+    margin-bottom: 28px;
+}
+
+.closing-line {
+    color: mediumvioletred;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* TABLETS */
+@media (max-width: 1000px) {
+    .about-hero {
+        gap: 35px;
+        padding: 60px 6%;
+    }
+
+    .about-image img {
+        height: 370px;
+    }
+
+    .glowup {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width: 650px) {
+    .about-hero {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 50px 7%;
+        gap: 35px;
+    }
+
+    .about-intro {
+        max-width: 100%;
+    }
+
+    .about-intro h1 {
+        font-size: 38px;
+    }
+
+    .about-intro p,
+    .mission p,
+    .why-glow p {
+        font-size: 14px;
+    }
+
+    .about-image {
+        max-width: 100%;
+    }
+
+    .about-image img {
+        height: 350px;
+        border-radius: 110px 110px 20px 20px;
+    }
+
+    .mission,
+    .why-glow {
+        padding: 60px 7%;
+    }
+
+    .mission h2,
+    .offer-heading h2,
+    .why-glow h2 {
+        font-size: 29px;
+    }
+
+    .offer {
+        padding: 60px 7%;
+    }
+
+    .glowup {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .glow {
+        min-height: auto;
+    }
+}

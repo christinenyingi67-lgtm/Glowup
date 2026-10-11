@@ -21,4 +21,4 @@ function Contacts(){
     </header>
     )
 }
-export default Contacts
+export default Contacts;
